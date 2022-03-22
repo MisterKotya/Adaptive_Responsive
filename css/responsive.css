@@ -1,0 +1,45 @@
+    .container {
+        max-width: 1231px;
+    }
+    
+    .header {
+      background-color: #E2ADF2;
+      width: 100%;
+  }
+    .services {
+        width: 100%;
+    }
+    .services__service {
+        background-color: #ff585d;
+        width: 42%;
+    }
+    .projects__proj {
+        background-color: #ffb549;
+        width: 31%;
+  }
+
+1200px=100%
+600px = X
+
+/*1000px*/
+@media only screen and (max-width: 1000px;){
+    .services__service {
+        background-color: #ff585d;
+        width: 29%;
+    }
+    .projects__proj {
+        background-color: #ffb549;
+        width: 39%;   
+}     
+}
+/*600px*/
+@media only screen and (max-width: 1000px;){
+    .services__service {
+        background-color: #ff585d;
+        width: 48%;
+    }
+    .projects__proj {
+        background-color: #ffb549;
+        width: 65%;   
+}     
+}

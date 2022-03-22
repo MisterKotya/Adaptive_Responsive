@@ -1,0 +1,28 @@
+@media only screen and (max-width:1251px) {
+  .header {
+    background-color: #E2ADF2;
+    width: 800px;
+}
+  .services__service {
+      background-color: #ff585d;
+      width: 190px;
+  }
+  .projects__proj {
+      width: 262px;
+      background-color: #ffb549;
+  }
+}
+@media only screen and (max-width:851px) {
+    .header {
+        background-color: #E2ADF2;
+        width: 600px;
+    }
+    .services__service {
+        background-color: #ff585d;
+        width: 100px;
+    } 
+    .projects__proj {
+        width: 150px;
+        background-color: #ffb549;
+    }  
+}   
